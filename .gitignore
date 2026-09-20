@@ -1,0 +1,37 @@
+# Muhit
+.venv/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Maxfiy â€” HECH QACHON commit qilinmaydi
+.env
+*.key
+*.pem
+secrets/
+
+# Ma'lumot
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+data/*.csv
+data/*.parquet
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
